@@ -14,7 +14,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%; 
+    width: 100%;
 }
 
 .contactHeader {
@@ -23,11 +23,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%; 
+    width: 100%;
 }
 
 .jumbotron {
     height: 100vh;
+}
+
+.navbar {
+    font-family: 'Crimson Text', serif;
 }
 
 #title {
@@ -41,6 +45,26 @@
 .contactForm {
     background-color: rgba(255, 255, 255, 0.377);
     padding: 15px;
+    border-radius: 5px;
+    font-family: 'Crimson Text', serif;
+}
+
+.btnOrange {
+    background-color: rgb(177,103,42);
+    color: whitesmoke;
+}
+
+.btnOrange:hover {
+    background-color: rgb(136, 75, 25);
+}
+
+a {
+    color: rgb(177,103,42);
+}
+
+a:hover {
+    color: rgb(136, 75, 25);
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 600px) {
@@ -79,6 +103,10 @@
     .jumbotron {
         height: 100vh;
     }
+
+    navbar {
+        font-family: 'Crimson Text', serif;
+    }
     
     #title {
         display: block;
@@ -91,5 +119,11 @@
     .contactForm {
         background-color: rgba(255, 255, 255, 0.377);
         padding: 15px;
+        font-family: 'Crimson Text', serif;
     }
+
+    .footer-copyright {
+        font-family: 'Crimson Text', serif;
+    }
+
 }
