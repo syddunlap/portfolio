@@ -1,0 +1,95 @@
+/* For mobile phones: */
+.pageHeader {
+    background-image: url("../images/mainImage.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.portfolioHeader {
+    background-image: url("../images/portfolioheader.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+}
+
+.contactHeader {
+    background-image: url("../images/contactheader.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+}
+
+.jumbotron {
+    height: 100vh;
+}
+
+#title {
+    display: block;
+    margin-left: auto;
+    margin-top: -20px;
+    margin-right: auto;
+    width: 100%;
+}
+
+.contactForm {
+    background-color: rgba(255, 255, 255, 0.377);
+    padding: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    
+    .pageHeader {
+        background-image: url("../images/mainImage.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .portfolioHeader {
+        background-image: url("../images/portfolioheader.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%; 
+    }
+
+    .contactHeader {
+        background-image: url("../images/contactheader.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%; 
+    }
+    
+    .jumbotron {
+        height: 100vh;
+    }
+    
+    #title {
+        display: block;
+        margin-left: auto;
+        margin-top: -50px;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .contactForm {
+        background-color: rgba(255, 255, 255, 0.377);
+        padding: 15px;
+    }
+}
