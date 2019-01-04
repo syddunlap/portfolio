@@ -126,4 +126,8 @@ a:hover {
         font-family: 'Crimson Text', serif;
     }
 
+    .project1 {
+        background-image: url("../images/audiorain.png");
+    }
+
 }
