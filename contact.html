@@ -1,3 +1,9 @@
+<?php
+if($_POST["message"]) {
+    mail("your@email.address", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
+
 <!DOCTYPE <!DOCTYPE html>
 <html>
 
@@ -61,7 +67,7 @@
             <img id="title" src="assets/images/contacttitle.png" alt="Get In Touch">
         </div>
         <div class="container contactForm">
-            <form class="needs-validation" novalidate>
+            <form method="post" action="contact.php" class="needs-validation" novalidate>
                 <div class="form-row">
                     <div class="col-md-4">
                         <label for="validationCustom01">First name</label>
@@ -91,7 +97,7 @@
                     <div class="col-md-12">
                         <div class="form-group">
                             <label for="exampleFormControlTextarea1">Questions? Comments? Just Saying 'Hello'?</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <textarea name= "message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
                     </div>
                 </div>
