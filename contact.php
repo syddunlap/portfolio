@@ -1,3 +1,9 @@
+<?php
+if($_POST["message"]) {
+    mail("sydney.dunlap2011@gmail.com", "Contact Message from Portfolio", $_POST["message"], "From: an@email.address");
+}
+?>
+
 <!DOCTYPE <!DOCTYPE html>
 <html>
 
@@ -61,7 +67,7 @@
             <img id="title" src="assets/images/contacttitle.png" alt="Get In Touch">
         </div>
         <div class="container contactForm">
-            <form class="needs-validation" novalidate>
+            <form method="post" action="contact.php" class="needs-validation" novalidate>
                 <div class="form-row">
                     <div class="col-md-4">
                         <label for="validationCustom01">First name</label>
